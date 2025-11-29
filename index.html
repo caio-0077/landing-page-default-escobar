@@ -2,17 +2,17 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>
-      Coastal Roofing & Siding | Roofing & Siding Contractors in Cape Cod, MA
+      Coastal Roofing &amp; Siding | Roofing &amp; Siding Contractors on Cape
+      Cod, MA
     </title>
 
+    <!-- SEO básico -->
     <meta
       name="description"
-      content="Coastal Roofing & Siding is a fully licensed and insured roofing and siding contractor in Cape Cod, MA. See real homeowner reviews, completed projects, and contact us for your free 30-minute session."
+      content="Coastal Roofing & Siding is a fully licensed and insured roofing and siding contractor on Cape Cod, MA. See real homeowner reviews, completed projects, and contact us for your free 30-minute session."
     />
     <meta
       name="keywords"
@@ -21,23 +21,57 @@
     <meta name="robots" content="index,follow" />
     <meta name="author" content="Coastal Roofing & Siding" />
 
-    <!-- Open Graph (para compartilhar melhor em redes sociais) -->
-    <meta property="og:title" content="Coastal Roofing & Siding | Roofing & Siding Contractors in Cape Cod, MA" />
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.coastalroofingandsidingma.com/" />
+
+    <!-- Open Graph (social) -->
+    <meta
+      property="og:title"
+      content="Coastal Roofing & Siding | Roofing & Siding Contractors on Cape Cod, MA"
+    />
     <meta
       property="og:description"
-      content="Trusted roofing and siding contractor in Cape Cod, MA. Check real reviews and our project gallery and get your free 30-minute session."
+      content="Trusted roofing and siding contractor on Cape Cod, MA. Check real reviews and our project gallery and get your free 30-minute session."
     />
     <meta property="og:type" content="website" />
-    <!-- Ajuste a URL abaixo conforme a URL final da landing page -->
-    <meta property="og:url" content="https://www.coastalroofingandsidingma.com/" />
+    <meta
+      property="og:url"
+      content="https://www.coastalroofingandsidingma.com/"
+    />
+    <meta
+      property="og:image"
+      content="https://www.coastalroofingandsidingma.com/public/assets/logo.png"
+    />
     <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Coastal Roofing & Siding" />
 
+    <!-- Twitter Card (quando compartilhar no X/Twitter) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Coastal Roofing & Siding | Roofing & Siding Contractors in Cape Cod, MA"
+    />
+    <meta
+      name="twitter:description"
+      content="Fully licensed and insured roofing and siding contractor serving Cape Cod, MA."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.coastalroofingandsidingma.com/public/assets/logo.png"
+    />
+
+    <!-- Cor do navegador no mobile -->
+    <meta name="theme-color" content="#ff6a00" />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="reviews.css" />
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- PWA / ícone -->
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="icon" type="image/png" href="/favicon-32.png" />
 
-
+    <!-- Fonts / Ícones -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -97,7 +131,10 @@
       </section>
 
       <!-- TESTIMONIALS, REVIEWS, PARTNERS, DATA, GALLERY -->
-      <section class="content" aria-label="Customer testimonials, reviews, partners and project gallery">
+      <section
+        class="content"
+        aria-label="Customer testimonials, reviews, partners and project gallery"
+      >
         <div class="contet-title">
           <h2>What Cape's <b>Homeowners</b> Are Saying</h2>
         </div>
@@ -172,26 +209,36 @@
                 class="star"
                 alt="Google review star"
                 src="https://upload.wikimedia.org/wikipedia/commons/4/44/Plain_Yellow_Star.png"
+                loading="lazy"
+                decoding="async"
               />
               <img
                 class="star"
                 alt="Google review star"
                 src="https://upload.wikimedia.org/wikipedia/commons/4/44/Plain_Yellow_Star.png"
+                loading="lazy"
+                decoding="async"
               />
               <img
                 class="star"
                 alt="Google review star"
                 src="https://upload.wikimedia.org/wikipedia/commons/4/44/Plain_Yellow_Star.png"
+                loading="lazy"
+                decoding="async"
               />
               <img
                 class="star"
                 alt="Google review star"
                 src="https://upload.wikimedia.org/wikipedia/commons/4/44/Plain_Yellow_Star.png"
+                loading="lazy"
+                decoding="async"
               />
               <img
                 class="star"
                 alt="Google review star"
                 src="https://upload.wikimedia.org/wikipedia/commons/4/44/Plain_Yellow_Star.png"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <span>
@@ -209,12 +256,15 @@
               alt="Google logo"
               src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
               width="120"
+              height="40"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>
 
         <div class="crs-modal-backdrop" id="reviewModalBackdrop">
-          <div class="crs-modal" role="dialog" aria-modal="true" aria-labelledby="modalName">
+          <div class="crs-modal" aria-modal="true" aria-labelledby="modalName">
             <div class="crs-modal-header">
               <div>
                 <div class="crs-modal-title" id="modalName"></div>
@@ -236,20 +286,83 @@
           <h2><b>Partner</b> With</h2>
         </div>
 
-        <div class="partners-wrapper" aria-label="Trusted platforms and partners">
+        <div
+          class="partners-wrapper"
+          aria-label="Trusted platforms and partners"
+        >
           <div class="partners-track">
-            <img src="public/assets/google-gua.jpg" alt="Google Guaranteed" />
-            <img src="public/assets/nextdoor.jpg" alt="Nextdoor" />
-            <img src="public/assets/thumbtack.jpg" alt="Thumbtack" />
-            <img src="public/assets/google-ls.jpg" alt="Google Local Services" />
-            <img src="public/assets/yelp.jpg" alt="Yelp" />
-            <img src="public/assets/bark.jpg" alt="Bark" />
-            <img src="public/assets/google-gua.jpg" alt="Google Guaranteed" />
-            <img src="public/assets/nextdoor.jpg" alt="Nextdoor" />
-            <img src="public/assets/thumbtack.jpg" alt="Thumbtack" />
-            <img src="public/assets/google-ls.jpg" alt="Google Local Services" />
-            <img src="public/assets/yelp.jpg" alt="Yelp" />
-            <img src="public/assets/bark.jpg" alt="Bark" />
+            <img
+              src="public/assets/google-gua.jpg"
+              alt="Google Guaranteed"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="public/assets/nextdoor.jpg"
+              alt="Nextdoor"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="public/assets/thumbtack.jpg"
+              alt="Thumbtack"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="public/assets/google-ls.jpg"
+              alt="Google Local Services"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="public/assets/yelp.jpg"
+              alt="Yelp"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="public/assets/bark.jpg"
+              alt="Bark"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="public/assets/google-gua.jpg"
+              alt="Google Guaranteed"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="public/assets/nextdoor.jpg"
+              alt="Nextdoor"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="public/assets/thumbtack.jpg"
+              alt="Thumbtack"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="public/assets/google-ls.jpg"
+              alt="Google Local Services"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="public/assets/yelp.jpg"
+              alt="Yelp"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="public/assets/bark.jpg"
+              alt="Bark"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
         </div>
 
@@ -284,36 +397,144 @@
 
         <div class="contet-title">
           <span>
-            See why local families choose Coastal Roofing & Siding for honest
-            estimates, lasting craftsmanship, and peace of mind.
+            See why local families choose Coastal Roofing &amp; Siding for
+            honest estimates, lasting craftsmanship, and peace of mind.
           </span>
         </div>
 
         <div class="content-page">
           <main class="page">
-            <section class="gallery" aria-label="Roofing and siding project gallery">
+            <section
+              class="gallery"
+              aria-label="Roofing and siding project gallery"
+            >
               <!-- Coloque quantas imagens quiser -->
-              <img src="public/imgs/01.jpg" alt="Roofing and siding project 1" />
-              <img src="public/imgs/02.jpg" alt="Roofing and siding project 2" />
-              <img src="public/imgs/03.jpg" alt="Roofing and siding project 3" />
-              <img src="public/imgs/04.jpg" alt="Roofing and siding project 4" />
-              <img src="public/imgs/05.jpg" alt="Roofing and siding project 5" />
-              <img src="public/imgs/06.jpg" alt="Roofing and siding project 6" />
-              <img src="public/imgs/07.jpg" alt="Roofing and siding project 7" />
-              <img src="public/imgs/08.jpg" alt="Roofing and siding project 8" />
-              <img src="public/imgs/09.jpg" alt="Roofing and siding project 9" />
-              <img src="public/imgs/10.jpg" alt="Roofing and siding project 10" />
-              <img src="public/imgs/11.jpg" alt="Roofing and siding project 11" />
-              <img src="public/imgs/12.jpg" alt="Roofing and siding project 12" />
-              <img src="public/imgs/13.jpg" alt="Roofing and siding project 13" />
-              <img src="public/imgs/14.jpg" alt="Roofing and siding project 14" />
-              <img src="public/imgs/15.jpg" alt="Roofing and siding project 15" />
-              <img src="public/imgs/16.jpg" alt="Roofing and siding project 16" />
-              <img src="public/imgs/17.jpg" alt="Roofing and siding project 17" />
-              <img src="public/imgs/18.jpg" alt="Roofing and siding project 18" />
-              <img src="public/imgs/19.jpg" alt="Roofing and siding project 19" />
-              <img src="public/imgs/20.jpg" alt="Roofing and siding project 20" />
-              <img src="public/imgs/21.jpg" alt="Roofing and siding project 21" />
+              <img
+                src="public/imgs/01.jpg"
+                alt="Roofing and siding project 1"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/02.jpg"
+                alt="Roofing and siding project 2"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/03.jpg"
+                alt="Roofing and siding project 3"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/04.jpg"
+                alt="Roofing and siding project 4"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/05.jpg"
+                alt="Roofing and siding project 5"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/06.jpg"
+                alt="Roofing and siding project 6"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/07.jpg"
+                alt="Roofing and siding project 7"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/08.jpg"
+                alt="Roofing and siding project 8"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/09.jpg"
+                alt="Roofing and siding project 9"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/10.jpg"
+                alt="Roofing and siding project 10"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/11.jpg"
+                alt="Roofing and siding project 11"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/12.jpg"
+                alt="Roofing and siding project 12"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/13.jpg"
+                alt="Roofing and siding project 13"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/14.jpg"
+                alt="Roofing and siding project 14"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/15.jpg"
+                alt="Roofing and siding project 15"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/16.jpg"
+                alt="Roofing and siding project 16"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/17.jpg"
+                alt="Roofing and siding project 17"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/18.jpg"
+                alt="Roofing and siding project 18"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/19.jpg"
+                alt="Roofing and siding project 19"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/20.jpg"
+                alt="Roofing and siding project 20"
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="public/imgs/21.jpg"
+                alt="Roofing and siding project 21"
+                loading="lazy"
+                decoding="async"
+              />
             </section>
           </main>
         </div>
@@ -326,6 +547,8 @@
           <img
             src="public/assets/logo.png"
             alt="Coastal Roofing & Siding company logo"
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <div class="contact-info">
@@ -354,8 +577,8 @@
         </div>
         <div class="divider"></div>
         <div class="footer-links">
-           <a href="terms.html">Terms of Use</a> |
-           <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a> |
+          <a href="privacy.html">Privacy Policy</a>
         </div>
         <div class="copyright">
           © 2025 Coastal Roofing and Siding – All Rights Reserved
