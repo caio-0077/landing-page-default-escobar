@@ -1,0 +1,11 @@
+# Desativar listagem de diretórios
+Options -Indexes
+
+# Proteger tipos de conteúdo
+Header set X-Content-Type-Options "nosniff"
+
+# Evitar que o site seja carregado em iframe de outros domínios
+Header set X-Frame-Options "SAMEORIGIN"
+
+# Pequena proteção XSS
+Header set X-XSS-Protection "1; mode=block"

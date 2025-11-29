@@ -6,13 +6,15 @@
   grid-template-columns: repeat(4, 1fr) !important;
   align-items: stretch !important;
 }
+
 @media (max-width: 1024px) {
   .content-reviews {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
+
 @media (max-width: 768px) {
-  .description{
+  .description {
     font-size: 14px;
   }
 
@@ -32,6 +34,7 @@
   cursor: pointer;
   transition: transform 0.12s ease, box-shadow 0.12s ease;
 }
+
 .card-content:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 60px rgba(0, 0, 0, 0.08);
@@ -50,25 +53,30 @@
   text-transform: uppercase;
   user-select: none;
 }
+
 .card-head {
   gap: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .col-name {
   flex-direction: column;
   display: flex;
   line-height: 1.25;
 }
+
 .title {
   font-size: 14px;
   font-weight: 700;
 }
+
 .ago {
   font-size: 0.85rem;
   color: #667085;
 }
+
 .description {
   margin: 0;
   padding: 0;
@@ -85,6 +93,7 @@
 .card-footer {
   margin-top: 0.5rem;
 }
+
 .read-more {
   font-size: 0.85rem;
   color: #b0b0b0;
@@ -113,15 +122,18 @@
   font-weight: 800;
   letter-spacing: 1px;
 }
+
 .link {
   color: #000000;
   font-weight: 700;
   cursor: pointer;
 }
+
 .stars {
   display: flex;
   gap: 4px;
 }
+
 .star {
   width: 22px;
   height: 22px;
@@ -137,9 +149,11 @@
   z-index: 999999;
   padding: 1rem;
 }
+
 .crs-modal-backdrop.crs-open {
   display: flex;
 }
+
 .crs-modal {
   max-width: 600px;
   width: 100%;
@@ -151,20 +165,24 @@
   flex-direction: column;
   gap: 0.75rem;
 }
+
 .crs-modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
 }
+
 .crs-modal-title {
   font-size: 1.1rem;
   font-weight: 700;
 }
+
 .crs-modal-ago {
   font-size: 0.85rem;
   color: #667085;
 }
+
 .crs-modal-close {
   border: none;
   background: transparent;
@@ -172,6 +190,7 @@
   cursor: pointer;
   line-height: 1;
 }
+
 .crs-modal-body {
   font-size: 0.95rem;
   color: #263238;

@@ -19,8 +19,7 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: "Bebas Neue", sans-serif;
 }
 
@@ -79,6 +78,7 @@ header {
 .call-us-content span {
   font-size: 14px;
   font-weight: bold;
+  color: var(--color-white);
 }
 
 .logo {
@@ -127,7 +127,7 @@ header {
   font-size: 1.2rem;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
-  box-shadow: -5px 2px 20px 0#70707024;
+  box-shadow: -5px 2px 20px 0 #70707024;
 }
 
 .btn-default:hover {
@@ -170,6 +170,7 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
+
 .title-contact {
   font-size: 1.5rem;
   font-weight: bold;
@@ -194,7 +195,7 @@ footer {
 }
 
 .footer-links {
-  color: white;
+  color: var(--color-white);
   font-size: 14px;
 }
 
@@ -204,6 +205,11 @@ footer {
   text-decoration: none;
 }
 
+.copyright {
+  font-size: 14px;
+  color: var(--color-white);
+}
+
 .container-home {
   width: 100%;
   display: flex;
@@ -211,7 +217,6 @@ footer {
   padding: 3rem 3rem;
   align-items: center;
   justify-content: center;
-  background-color: #f5f5f5;
   background-color: gray;
 }
 
@@ -236,11 +241,6 @@ footer {
 .content-home p {
   font-size: 1.2rem;
   text-align: center;
-}
-
-.copyright {
-  font-size: 14px;
-  color: var(--color-white);
 }
 
 .content {
@@ -345,7 +345,7 @@ footer {
   display: grid !important;
   background-color: var(--color-white);
   grid-template-columns: repeat(3, 1fr) !important;
-  box-shadow: -5px 2px 20px 0#70707024;
+  box-shadow: -5px 2px 20px 0 #70707024;
 }
 
 .partners-wrapper {
@@ -387,6 +387,7 @@ footer {
   margin: 0;
   max-width: var(--framing);
 }
+
 .page {
   width: 100%;
 }
@@ -411,6 +412,7 @@ footer {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
 }
 
+/* RESPONSIVO */
 @media (max-width: 768px) {
   .content {
     gap: 1rem;
