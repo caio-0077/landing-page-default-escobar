@@ -559,7 +559,47 @@ footer {
     display: flex;
   }
 
+  .partners-track img {
+    height: 4rem;
+  }
+
+  .partners-track {
+    animation: scroll 25s linear infinite;
+  }
+
   footer {
     padding-bottom: 108px;
+  }
+}
+
+/* ===== Ajustes adicionais para carrossel infinito suave (apenas adicionados) ===== */
+
+/* remove padding interno da área visível do carrossel para não dar corte lateral */
+.partners-wrapper {
+  padding: 0;
+}
+
+/* animação contínua usando uma nova keyframe (scroll-fast) */
+.partners-track {
+  width: max-content;
+  animation: scroll-fast 10s linear infinite;
+  will-change: transform;
+}
+
+/* keyframes do loop infinito duplicado */
+@keyframes scroll-fast {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* anda metade do conteúdo, já que duplicamos os logos via JS */
+    transform: translateX(-50%);
+  }
+}
+
+/* no mobile: mesma animação, só mais lenta para não ficar exagerado */
+@media (max-width: 768px) {
+  .partners-track {
+    animation: scroll-fast 18s linear infinite;
   }
 }
